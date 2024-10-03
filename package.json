@@ -1,0 +1,13 @@
+{
+  "name": "json-to-csv-converter",
+  "version": "1.0.0",
+  "description": "A simple Node.js project to convert JSON data to CSV format",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js input.json output.csv"
+  },
+  "dependencies": {
+    "@json2csv/plainjs": "^7.0.6"
+  }
+}

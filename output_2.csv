@@ -1,0 +1,9 @@
+EquipmentID,EquipmentName,Manufacturer,Model,Capacity,Length,Width,Height,Weight,Notes,MaintenanceDate,MaintenanceType,MaintenanceDescription
+PMP-001,Centrifugal Pump,Grundfos,CR 32-2,30 m³/h,850 mm,400 mm,600 mm,125 kg,High-efficiency pump for process water circulation,2024-01-15,Preventive,Bearing replacement
+PMP-001,Centrifugal Pump,Grundfos,CR 32-2,30 m³/h,850 mm,400 mm,600 mm,125 kg,High-efficiency pump for process water circulation,2023-08-20,Corrective,Seal replacement
+HX-101,Shell and Tube Heat Exchanger,Alfa Laval,T50-MFG,500 kW,3200 mm,600 mm,800 mm,850 kg,Counter-flow heat exchanger for primary cooling,2024-02-10,Preventive,Tube cleaning
+TNK-201,Storage Tank,Endress+Hauser,ST-5000,5000 L,2000 mm,2000 mm,3000 mm,1200 kg,Stainless steel vertical storage tank,2024-03-01,Inspection,Annual thickness testing
+TNK-201,Storage Tank,Endress+Hauser,ST-5000,5000 L,2000 mm,2000 mm,3000 mm,1200 kg,Stainless steel vertical storage tank,2023-09-15,Preventive,Interior coating renewal
+FLT-301,Basket Filter,Eaton,Model 72,50 m³/h,500 mm,300 mm,800 mm,45 kg,Duplex basket strainer for particulate removal,2024-01-05,Preventive,Basket replacement
+VLV-401,Control Valve,Fisher,GX Control Valve,40 m³/h,300 mm,200 mm,400 mm,28 kg,Globe-style control valve with pneumatic actuator,2024-02-20,Calibration,Actuator calibration
+VLV-401,Control Valve,Fisher,GX Control Valve,40 m³/h,300 mm,200 mm,400 mm,28 kg,Globe-style control valve with pneumatic actuator,2023-11-10,Corrective,Stem packing replacement

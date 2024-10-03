@@ -1,0 +1,95 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "ProcessEquipmentDataPrimaryScope": {
+      "type": "object",
+      "properties": {
+        "EquipmentList": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "EquipmentID": {
+                "type": "string"
+              },
+              "EquipmentName": {
+                "type": "string"
+              },
+              "Manufacturer": {
+                "type": "string"
+              },
+              "Model": {
+                "type": "string"
+              },
+              "Capacity": {
+                "type": "string"
+              },
+              "Dimensions": {
+                "type": "object",
+                "properties": {
+                  "Length": {
+                    "type": "string"
+                  },
+                  "Width": {
+                    "type": "string"
+                  },
+                  "Height": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "Length",
+                  "Width",
+                  "Height"
+                ]
+              },
+              "Weight": {
+                "type": "string"
+              },
+              "Notes": {
+                "type": "string"
+              },
+              "MaintenanceHistory": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "date": {
+                      "type": "string",
+                      "format": "date"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "date",
+                    "type",
+                    "description"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "EquipmentID",
+              "EquipmentName",
+              "Manufacturer",
+              "Model",
+              "Dimensions"
+            ]
+          }
+        }
+      },
+      "required": [
+        "EquipmentList"
+      ]
+    }
+  },
+  "required": [
+    "ProcessEquipmentDataPrimaryScope"
+  ]
+}

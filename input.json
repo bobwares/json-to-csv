@@ -1,0 +1,126 @@
+{
+  "ProcessEquipmentDataPrimaryScope": {
+    "EquipmentList": [
+      {
+        "EquipmentID": "PMP-001",
+        "EquipmentName": "Centrifugal Pump",
+        "Manufacturer": "Grundfos",
+        "Model": "CR 32-2",
+        "Capacity": "30 m³/h",
+        "Dimensions": {
+          "Length": "850 mm",
+          "Width": "400 mm",
+          "Height": "600 mm"
+        },
+        "Weight": "125 kg",
+        "Notes": "High-efficiency pump for process water circulation",
+        "MaintenanceHistory": [
+          {
+            "date": "2024-01-15",
+            "type": "Preventive",
+            "description": "Bearing replacement"
+          },
+          {
+            "date": "2023-08-20",
+            "type": "Corrective",
+            "description": "Seal replacement"
+          }
+        ]
+      },
+      {
+        "EquipmentID": "HX-101",
+        "EquipmentName": "Shell and Tube Heat Exchanger",
+        "Manufacturer": "Alfa Laval",
+        "Model": "T50-MFG",
+        "Capacity": "500 kW",
+        "Dimensions": {
+          "Length": "3200 mm",
+          "Width": "600 mm",
+          "Height": "800 mm"
+        },
+        "Weight": "850 kg",
+        "Notes": "Counter-flow heat exchanger for primary cooling",
+        "MaintenanceHistory": [
+          {
+            "date": "2024-02-10",
+            "type": "Preventive",
+            "description": "Tube cleaning"
+          }
+        ]
+      },
+      {
+        "EquipmentID": "TNK-201",
+        "EquipmentName": "Storage Tank",
+        "Manufacturer": "Endress+Hauser",
+        "Model": "ST-5000",
+        "Capacity": "5000 L",
+        "Dimensions": {
+          "Length": "2000 mm",
+          "Width": "2000 mm",
+          "Height": "3000 mm"
+        },
+        "Weight": "1200 kg",
+        "Notes": "Stainless steel vertical storage tank",
+        "MaintenanceHistory": [
+          {
+            "date": "2024-03-01",
+            "type": "Inspection",
+            "description": "Annual thickness testing"
+          },
+          {
+            "date": "2023-09-15",
+            "type": "Preventive",
+            "description": "Interior coating renewal"
+          }
+        ]
+      },
+      {
+        "EquipmentID": "FLT-301",
+        "EquipmentName": "Basket Filter",
+        "Manufacturer": "Eaton",
+        "Model": "Model 72",
+        "Capacity": "50 m³/h",
+        "Dimensions": {
+          "Length": "500 mm",
+          "Width": "300 mm",
+          "Height": "800 mm"
+        },
+        "Weight": "45 kg",
+        "Notes": "Duplex basket strainer for particulate removal",
+        "MaintenanceHistory": [
+          {
+            "date": "2024-01-05",
+            "type": "Preventive",
+            "description": "Basket replacement"
+          }
+        ]
+      },
+      {
+        "EquipmentID": "VLV-401",
+        "EquipmentName": "Control Valve",
+        "Manufacturer": "Fisher",
+        "Model": "GX Control Valve",
+        "Capacity": "40 m³/h",
+        "Dimensions": {
+          "Length": "300 mm",
+          "Width": "200 mm",
+          "Height": "400 mm"
+        },
+        "Weight": "28 kg",
+        "Notes": "Globe-style control valve with pneumatic actuator",
+        "MaintenanceHistory": [
+          {
+            "date": "2024-02-20",
+            "type": "Calibration",
+            "description": "Actuator calibration"
+          },
+          {
+            "date": "2023-11-10",
+            "type": "Corrective",
+            "description": "Stem packing replacement"
+          }
+        ]
+      }
+    ]
+  }
+}
