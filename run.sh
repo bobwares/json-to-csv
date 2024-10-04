@@ -7,4 +7,4 @@
 #  exit 1
 #fi
 
-node index.js "input.json" "output.csv"
+node ./src/index.js "./src/input.json" "./src/output.csv"
